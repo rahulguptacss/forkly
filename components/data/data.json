@@ -1,0 +1,588 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo-w.png",
+      "logo_text": "FORKLY",
+      "logo_subtext": "RESTAURANT & FINE DINING",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "Specialties",
+          "href": "#specialties"
+        },
+        {
+          "name": "About",
+          "href": "#about"
+        },
+        {
+          "name": "Menu",
+          "href": "#menu"
+        },
+        {
+          "name": "Chef",
+          "href": "#chef"
+        },
+        {
+          "name": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Contact",
+          "href": "#contact"
+        }
+      ],
+      "button_text": "Book a Table",
+      "button_link": "#reservation",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu",
+      "drawer_drag_title": "Swipe right to close",
+      "drag_hint": "← Drag right to dismiss"
+    },
+    "Footer": {
+      "logo": "/logo/logo-w.png",
+      "logo_text": "FORKLY",
+      "logo_subtext": "RESTAURANT & FINE DINING",
+      "tagline": "Fine food, warm hospitality, and a memorable dining experience crafted daily with fresh seasonal ingredients and timeless culinary passion.",
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Menu",
+          "href": "#menu"
+        },
+        {
+          "name": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "contact_title": "Contact Info",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "email": "info@xyz.com",
+      "email_href": "mailto:info@xyz.com",
+      "social_title": "Follow Us",
+      "social_links": [
+        {
+          "platform": "Instagram",
+          "href": "https://instagram.com",
+          "icon": "Instagram"
+        },
+        {
+          "platform": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "Facebook"
+        },
+        {
+          "platform": "WhatsApp",
+          "href": "https://whatsapp.com",
+          "icon": "WhatsApp"
+        }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top"
+    }
+  },
+  "categories": {
+    "RestaurantDining": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Forkly",
+              "pageName": "home",
+              "metadata": {
+                "title": "Forkly | Restaurant & Fine Dining",
+                "description": "Where taste meets elegance. Experience seasonal fine dining, signature chef creations, handcrafted cocktails, and warm hospitality at Forkly."
+              },
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "Hero"
+                },
+                {
+                  "key": "Specialties",
+                  "component": "Specialties"
+                },
+                {
+                  "key": "About",
+                  "component": "About"
+                },
+                {
+                  "key": "Menu",
+                  "component": "Menu"
+                },
+                {
+                  "key": "Chefs",
+                  "component": "Chefs"
+                },
+                {
+                  "key": "Gallery",
+                  "component": "Gallery"
+                },
+                {
+                  "key": "Reservation",
+                  "component": "Reservation"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "Contact",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "background_image": "/images/hero-dining.webp",
+              "background_alt": "Forkly warm candlelit fine dining restaurant interior",
+              "headline_line1": "WHERE",
+              "headline_line2": "TASTE MEETS",
+              "headline_highlight": "elegance",
+              "cta_text": "Explore Menu",
+              "cta_link": "#menu"
+            },
+            "specialties": {
+              "eyebrow": "OUR SPECIALITIES",
+              "heading_main": "Signature",
+              "heading_highlight": "Selections",
+              "items": [
+                {
+                  "id": "appetizers",
+                  "title": "Appetizers",
+                  "description": "Tempting starters to awaken your taste buds",
+                  "image": "/images/dishes/bruschetta.webp",
+                  "image_alt": "Artisan tomato basil bruschetta appetizers"
+                },
+                {
+                  "id": "main-dishes",
+                  "title": "Main Dishes",
+                  "description": "Hearty and flavorful creations for a truly satisfying meal",
+                  "image": "/images/dishes/salmon.webp",
+                  "image_alt": "Pan-seared herb salmon main dish"
+                },
+                {
+                  "id": "desserts",
+                  "title": "Desserts",
+                  "description": "Sweet indulgences to perfect your dining experience",
+                  "image": "/images/dishes/lava-cake.webp",
+                  "image_alt": "Warm chocolate lava cake with vanilla bean gelato"
+                }
+              ]
+            },
+            "about": {
+              "eyebrow": "ABOUT US",
+              "heading_main": "A Dining Experience",
+              "heading_highlight": "Beyond Ordinary",
+              "description": "At Forkly, we believe great food brings people together. With a passion for exceptional flavors, fresh ingredients, and warm hospitality, we create a dining experience that's both memorable and truly satisfying.",
+              "primary_image": "/images/about-dining.webp",
+              "primary_image_alt": "Forkly fine dining tables set with warm golden lighting",
+              "secondary_image": "/images/dishes/salmon.webp",
+              "secondary_image_alt": "Signature gourmet plated dish at Forkly",
+              "highlights": [
+                {
+                  "id": "expert-chefs",
+                  "icon": "ChefHat",
+                  "title": "Expert Chefs"
+                },
+                {
+                  "id": "fresh-ingredients",
+                  "icon": "Leaf",
+                  "title": "Fresh Ingredients"
+                },
+                {
+                  "id": "elegant-ambience",
+                  "icon": "ConciergeBell",
+                  "title": "Elegant Ambience"
+                }
+              ]
+            },
+            "menu": {
+              "eyebrow": "OUR MENU",
+              "heading_main": "Delicious",
+              "heading_highlight": "Menu",
+              "default_category": "main-dishes",
+              "categories": [
+                {
+                  "id": "starters",
+                  "label": "Starters",
+                  "featured_image": "/images/dishes/bruschetta.webp",
+                  "featured_alt": "Signature artisan bruschetta appetizer platter",
+                  "items": [
+                    {
+                      "id": "truffle-bruschetta",
+                      "name": "Heirloom Bruschetta",
+                      "badge": "Popular",
+                      "description": "Charred sourdough topped with heirloom tomatoes, aged balsamic, and fresh basil.",
+                      "price": "$14",
+                      "image": "/images/dishes/bruschetta.webp"
+                    },
+                    {
+                      "id": "burrata-fig",
+                      "name": "Creamy Burrata & Fig",
+                      "description": "Artisanal Pugliese burrata with roasted figs, pistachio crumble, and wildflower honey.",
+                      "price": "$18",
+                      "image": "/images/dishes/salad-platter.webp"
+                    },
+                    {
+                      "id": "seared-scallops",
+                      "name": "Pan-Seared Scallops",
+                      "badge": "Chef's Choice",
+                      "description": "Hokkaido scallops over cauliflower velouté with crispy pancetta and herb oil.",
+                      "price": "$22",
+                      "image": "/images/dishes/salmon.webp"
+                    },
+                    {
+                      "id": "wild-mushroom-tart",
+                      "name": "Wild Mushroom Tartlet",
+                      "description": "Flaky puff pastry filled with chanterelles, thyme mascarpone, and truffle glaze.",
+                      "price": "$16",
+                      "image": "/images/dishes/bruschetta.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "main-dishes",
+                  "label": "Main Dishes",
+                  "featured_image": "/images/dishes/salad-platter.webp",
+                  "featured_alt": "Curated seasonal main dishes and artisan bread platter",
+                  "items": [
+                    {
+                      "id": "herb-salmon",
+                      "name": "Herb-Crusted Salmon",
+                      "badge": "Chef's Choice",
+                      "description": "Atlantic salmon fillet with charred asparagus, saffron mash, and lemon beurre blanc.",
+                      "price": "$32",
+                      "image": "/images/dishes/salmon.webp"
+                    },
+                    {
+                      "id": "wagyu-ribeye",
+                      "name": "Prime Ribeye Steak",
+                      "badge": "Popular",
+                      "description": "Dry-aged 12oz prime cut seared in rosemary butter with roasted garlic jus.",
+                      "price": "$48",
+                      "image": "/images/chef-plating.webp"
+                    },
+                    {
+                      "id": "truffle-risotto",
+                      "name": "Black Truffle Risotto",
+                      "description": "Slow-simmered Carnaroli rice finished with aged Parmigiano and shaved black truffle.",
+                      "price": "$29",
+                      "image": "/images/dishes/salad-platter.webp"
+                    },
+                    {
+                      "id": "roasted-duck",
+                      "name": "Crispy Duck Breast",
+                      "description": "Five-spice glazed duck breast with cherry reduction and charred baby carrots.",
+                      "price": "$36",
+                      "image": "/images/dishes/salmon.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "desserts",
+                  "label": "Desserts",
+                  "featured_image": "/images/dishes/lava-cake.webp",
+                  "featured_alt": "Warm molten chocolate lava cake dessert",
+                  "items": [
+                    {
+                      "id": "molten-lava",
+                      "name": "Valrhona Lava Cake",
+                      "badge": "Popular",
+                      "description": "Warm dark chocolate cake with a molten center, fresh berries, and vanilla gelato.",
+                      "price": "$15",
+                      "image": "/images/dishes/lava-cake.webp"
+                    },
+                    {
+                      "id": "tiramisu-gold",
+                      "name": "Espresso Tiramisu",
+                      "description": "Espresso-soaked savoiardi layered with whipped mascarpone and cocoa dust.",
+                      "price": "$14",
+                      "image": "/images/dishes/lava-cake.webp"
+                    },
+                    {
+                      "id": "creme-brulee",
+                      "name": "Madagascar Crème Brûlée",
+                      "badge": "Chef's Choice",
+                      "description": "Silky vanilla bean custard beneath a crisp caramelized sugar crust.",
+                      "price": "$13",
+                      "image": "/images/dishes/salad-platter.webp"
+                    },
+                    {
+                      "id": "lemon-tart",
+                      "name": "Amalfi Lemon Tart",
+                      "description": "Zesty citrus curd in a toasted almond shell with torched Swiss meringue.",
+                      "price": "$14",
+                      "image": "/images/dishes/bruschetta.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "drinks",
+                  "label": "Drinks",
+                  "featured_image": "/images/cocktails.webp",
+                  "featured_alt": "Handcrafted signature cocktails at Forkly bar",
+                  "items": [
+                    {
+                      "id": "smoked-old-fashioned",
+                      "name": "Smoked Old Fashioned",
+                      "badge": "Popular",
+                      "description": "Small-batch bourbon, spiced demerara syrup, orange bitters, and oak smoke.",
+                      "price": "$17",
+                      "image": "/images/cocktails.webp"
+                    },
+                    {
+                      "id": "golden-negroni",
+                      "name": "Forkly Gold Negroni",
+                      "badge": "Chef's Choice",
+                      "description": "Botanical gin, saffron vermouth, bitter aperitivo, and expressed grapefruit.",
+                      "price": "$16",
+                      "image": "/images/cocktails.webp"
+                    },
+                    {
+                      "id": "elderflower-spritz",
+                      "name": "Botanical Spritz",
+                      "description": "Prosecco, elderflower liqueur, chilled cucumber ribbon, and sparkling mineral water.",
+                      "price": "$15",
+                      "image": "/images/cocktails.webp"
+                    },
+                    {
+                      "id": "reserve-pinot",
+                      "name": "Reserve Pinot Noir",
+                      "description": "Velvety Willamette Valley vintage with notes of black cherry and warm oak.",
+                      "price": "$19",
+                      "image": "/images/cocktails.webp"
+                    }
+                  ]
+                }
+              ]
+            },
+            "chefs": {
+              "eyebrow": "MEET OUR CHEFS",
+              "heading_main": "Our Expert",
+              "heading_highlight": "Chefs",
+              "subtitle": "Passionate culinary experts who bring creativity, flavor, and excellence to every dish.",
+              "members": [
+                {
+                  "id": "michael-reed",
+                  "name": "Michael Reed",
+                  "role": "Head Chef",
+                  "image": "/images/chefs/chef-1.webp",
+                  "image_alt": "Head Chef Michael Reed"
+                },
+                {
+                  "id": "sophia-martinez",
+                  "name": "Sophia Martinez",
+                  "role": "Sous Chef",
+                  "image": "/images/chefs/chef-2.webp",
+                  "image_alt": "Sous Chef Sophia Martinez"
+                },
+                {
+                  "id": "daniel-brooks",
+                  "name": "Daniel Brooks",
+                  "role": "Pastry Chef",
+                  "image": "/images/chefs/chef-3.webp",
+                  "image_alt": "Pastry Chef Daniel Brooks"
+                },
+                {
+                  "id": "emma-clarke",
+                  "name": "Emma Clarke",
+                  "role": "Culinary Chef",
+                  "image": "/images/chefs/chef-4.webp",
+                  "image_alt": "Culinary Chef Emma Clarke"
+                }
+              ]
+            },
+            "gallery": {
+              "eyebrow": "OUR GALLERY",
+              "heading_main": "A Taste of Our",
+              "heading_highlight": "Restaurant",
+              "subtitle": "Explore moments from our kitchen, signature dishes, and the warm dining experience we create for you.",
+              "close_aria_label": "Close gallery preview",
+              "prev_aria_label": "Previous gallery image",
+              "next_aria_label": "Next gallery image",
+              "left_top_image": {
+                "src": "/images/dishes/salmon.webp",
+                "alt": "Pan-seared Atlantic salmon served with seasonal greens"
+              },
+              "left_bottom_image": {
+                "src": "/images/dishes/lava-cake.webp",
+                "alt": "Warm chocolate lava dessert with berries"
+              },
+              "center_top_image": {
+                "src": "/images/dishes/salad-platter.webp",
+                "alt": "Artisan garden salad and warm bread basket"
+              },
+              "center_bottom_image": {
+                "src": "/images/dishes/bruschetta.webp",
+                "alt": "Crisp heirloom tomato bruschetta"
+              },
+              "feature_image": {
+                "src": "/images/chef-plating.webp",
+                "alt": "Chef delicately plating a signature gourmet dish",
+                "overlay_title": "Signature Dishes",
+                "overlay_subtitle": "Crafted with Passion"
+              },
+              "right_top_image": {
+                "src": "/images/about-dining.webp",
+                "alt": "Warm candlelit interior tables at Forkly"
+              },
+              "right_bottom_image": {
+                "src": "/images/cocktails.webp",
+                "alt": "Handcrafted signature cocktails"
+              }
+            },
+            "reservation": {
+              "eyebrow": "RESERVATION",
+              "heading_main": "Book a",
+              "heading_highlight": "Table",
+              "subtitle": "Reserve your table in advance and enjoy a delightful dining experience with us.",
+              "highlights": [
+                {
+                  "id": "choose-date-time",
+                  "icon": "CalendarClock",
+                  "title": "Choose Date & Time",
+                  "description": "Pick your preferred dining slot."
+                },
+                {
+                  "id": "any-group-size",
+                  "icon": "Users",
+                  "title": "Any Group Size",
+                  "description": "From intimate dinners to family gatherings."
+                },
+                {
+                  "id": "great-experience",
+                  "icon": "ConciergeBell",
+                  "title": "Great Dining Experience",
+                  "description": "Delicious food, warm service, and a cozy ambiance."
+                }
+              ],
+              "form": {
+                "name_placeholder": "Full Name *",
+                "phone_placeholder": "Phone Number *",
+                "date_placeholder": "Date *",
+                "time_placeholder": "Time *",
+                "time_options": [
+                  "5:30 PM",
+                  "6:00 PM",
+                  "6:30 PM",
+                  "7:00 PM",
+                  "7:30 PM",
+                  "8:00 PM",
+                  "8:30 PM",
+                  "9:00 PM"
+                ],
+                "guests_placeholder": "No. of Guests *",
+                "guest_options": [
+                  "1 Guest",
+                  "2 Guests",
+                  "3 Guests",
+                  "4 Guests",
+                  "5 Guests",
+                  "6+ Guests"
+                ],
+                "requests_placeholder": "Special Request (Optional)",
+                "submit_text": "Book Now",
+                "success_title": "Reservation Confirmed",
+                "success_message": "Thank you! We have reserved your table and look forward to welcoming you at Forkly.",
+                "reset_text": "Make Another Reservation"
+              }
+            },
+            "testimonials": {
+              "eyebrow": "TESTIMONIALS",
+              "heading_main": "What Our Guests",
+              "heading_highlight": "Say",
+              "subtitle": "Real experiences from our valued guests.",
+              "prev_aria_label": "Previous testimonial",
+              "next_aria_label": "Next testimonial",
+              "items": [
+                {
+                  "id": "guest-1",
+                  "quote": "Absolutely delicious food and a wonderful atmosphere. The service was prompt and very professional. A perfect dining experience!",
+                  "author_name": "Daniel Carter",
+                  "role": "Food Blogger",
+                  "rating": 5,
+                  "image": "/images/guests/guest-1.webp",
+                  "image_alt": "Portrait of guest Daniel Carter"
+                },
+                {
+                  "id": "guest-2",
+                  "quote": "A fantastic place with a great variety of dishes. The flavors, presentation, and hospitality were all outstanding. Highly recommended!",
+                  "author_name": "Emily Watson",
+                  "role": "Regular Guest",
+                  "rating": 5,
+                  "image": "/images/guests/guest-2.webp",
+                  "image_alt": "Portrait of guest Emily Watson"
+                },
+                {
+                  "id": "guest-3",
+                  "quote": "Our go-to restaurant for family dinners. The food is always fresh, tasty, and consistently excellent. Truly a delightful experience every time.",
+                  "author_name": "Michael Reed",
+                  "role": "Loyal Customer",
+                  "rating": 5,
+                  "image": "/images/guests/guest-3.webp",
+                  "image_alt": "Portrait of guest Michael Reed"
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "CONTACT US",
+              "heading_main": "Get in",
+              "heading_highlight": "Touch",
+              "subtitle": "We'd love to hear from you. Reach out to us for reservations, events, or any other inquiries.",
+              "info_cards": [
+                {
+                  "id": "address",
+                  "icon": "MapPin",
+                  "label": "Our Location",
+                  "value": "123 Education Lane, New York, NY 10001"
+                },
+                {
+                  "id": "phone",
+                  "icon": "Phone",
+                  "label": "Call Us",
+                  "value": "+100000000000",
+                  "href": "tel:+100000000000"
+                },
+                {
+                  "id": "email",
+                  "icon": "Mail",
+                  "label": "Email Us",
+                  "value": "info@xyz.com",
+                  "href": "mailto:info@xyz.com"
+                }
+              ],
+              "map": {
+                "embed_url": "https://maps.google.com/maps?q=123+Education+Lane,+New+York,+NY+10001&t=&z=14&ie=UTF8&iwloc=&output=embed",
+                "pin_label": "Forkly Restaurant & Dining"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
