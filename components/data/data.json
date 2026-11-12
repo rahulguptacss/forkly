@@ -1,7 +1,7 @@
 {
   "common": {
     "Header": {
-      "logo": "/logo/logo-w.png",
+      "logo": "/logo/logo-w.webp",
       "logo_text": "FORKLY",
       "logo_subtext": "RESTAURANT & FINE DINING",
       "links": [
@@ -46,7 +46,7 @@
       "drag_hint": "← Drag right to dismiss"
     },
     "Footer": {
-      "logo": "/logo/logo-w.png",
+      "logo": "/logo/logo-w.webp",
       "logo_text": "FORKLY",
       "logo_subtext": "RESTAURANT & FINE DINING",
       "tagline": "Fine food, warm hospitality, and a memorable dining experience crafted daily with fresh seasonal ingredients and timeless culinary passion.",
